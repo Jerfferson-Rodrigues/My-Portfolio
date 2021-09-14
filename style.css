@@ -339,9 +339,9 @@ footer {
   section {
     padding: 100px 50px;
   }
-  /* .banner {
+  .banner {
     padding: 150px 50px 100px;
-  } */
+  }
   .banner h2 {
     font-size: 1.5em;
   }
@@ -355,6 +355,9 @@ footer {
   }
   .topo h2 {
     font-size: 24px;
+  }
+  .contentBx {
+    margin-right: 0;
   }
   .contentBx h3 {
     font-size: 20px;
@@ -405,9 +408,9 @@ footer {
   header.bar {
     padding: 20px 20px;
   }
-  /* .banner{
-        padding: 150px 20px 100px;
-    } */
+  .banner {
+    padding: 150px 20px 100px;
+  }
   section {
     padding: 100px 20px;
   }
