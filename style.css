@@ -13,7 +13,8 @@ section {
 .banner {
   position: relative;
   min-height: 100vh;
-  background: rgb(3, 3, 3);
+  background: url(image/toronto.jpg);
+  /* background: rgb(3, 3, 3); */
   background-size: cover;
   background-position: right;
   display: flex;
