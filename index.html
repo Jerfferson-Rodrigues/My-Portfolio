@@ -15,10 +15,10 @@
         <a href="#home" class="logo">JERFFERSON</a>
         <div class="toggle" onclick="toggleMenu()"></div>
         <ul class="menu">
-            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
-            <li><a href="#sobre" onclick="toggleMenu()">Sobre Mim</a></li>
-            <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
-            <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+            <li class="item"><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li class="item"><a href="#sobre" onclick="toggleMenu()">Sobre Mim</a></li>
+            <li class="item"><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+            <li class="item"><a href="#contato" onclick="toggleMenu()">Contato</a></li>
         </ul>
     </header>
     <section class="banner" id="home">
@@ -63,14 +63,14 @@
             </div>
 
             <div class="card">
-                <div class="imgBx" data-text="Gallery">
-                    <img src="image/gallery.png">
+                <div class="imgBx" data-text="MilkShake">
+                    <img src="image/milkshake.png">
                 </div>
                 <div class="textBox">
                     <div>
-                        <h3>Responsive Gallery</h3>
-                        <p>Galeria Responsiva em Html5, Css3 e Javascript com objetivo de trabalhar o <strong>Swiper.</strong></p>
-                        <a href="https://champ-gallery.netlify.app/" target="_blank">Visualizar</a>
+                        <h3>Landing Page MilkShake</h3>
+                        <p>Landing Page responsiva em Html5, Css3 e javascript com animações <strong>GSAP</strong>.</strong></p>
+                        <a href="https://jrmilkshake.netlify.app/" target="_blank">Visualizar</a>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,18 @@
                 </div>
             </div>
 
-
+            <div class="card">
+                <div class="imgBx" data-text="Gallery">
+                    <img src="image/gallery.png">
+                </div>
+                <div class="textBox">
+                    <div>
+                        <h3>Responsive Gallery</h3>
+                        <p>Galeria Responsiva em Html5, Css3 e Javascript com objetivo de trabalhar o <strong>Swiper.</strong></p>
+                        <a href="https://champ-gallery.netlify.app/" target="_blank">Visualizar</a>
+                    </div>
+                </div>
+            </div>
             <!-- <div class="card">
                 <div class="imgBx" data-text="design">
                     <img src="image/api.png">
@@ -96,23 +107,6 @@
                 <div class="textBox">
                     <div>
                         <h3>Website Food</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusantium molestiae
-                            alias
-                            dolor nostrum officia ducimus, blanditiis aut at rem fugit ea, autem est eos expedita odit
-                            ad
-                            sapiente minima.</p>
-                        <a href="#">Visualizar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="imgBx" data-text="Pizza">
-                    <img src="image/ecommerce.png">
-                </div>
-                <div class="textBox">
-                    <div>
-                        <h3>Pizza</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusantium molestiae
                             alias
                             dolor nostrum officia ducimus, blanditiis aut at rem fugit ea, autem est eos expedita odit
@@ -202,6 +196,7 @@
         <p>Jerfferson Bezerra Rodrigues</p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>
