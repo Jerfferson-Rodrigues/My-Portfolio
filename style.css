@@ -227,10 +227,13 @@ img {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 15px;
-  background: #ff3300;
+  background: #fc5126;
   text-decoration: none;
   color: #fff;
   border-radius: 30px;
+}
+.projetos .card .textBox a:hover {
+  background: #ff3300;
 }
 .iconLg {
   width: 40px;
